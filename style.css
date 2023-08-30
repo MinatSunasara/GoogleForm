@@ -1,0 +1,100 @@
+body{
+	background-color: #ede7f6;
+	font-family: Roboto,Sans-serif;
+	font-size: 11pt;
+    line-height: 1.5;
+}
+.form{
+	height: 1100px;
+	width: 600px;
+	margin: auto;
+}
+.desc{
+	font-size: 11pt;
+}
+.required{
+font-size: 13px;
+color: red;
+}
+.title-div{
+	height: auto;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+	border-top: 8px solid #6703c4;
+	padding: 20px;
+}
+.name-div, .college-div, .gmail-div, .mobile-div{
+	height: auto;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+	padding: 20px;
+}
+.name{
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	font-size: 15px;
+}
+.input-div{
+	padding-top: 10px;
+	padding-left: 25px;
+}
+.input-div select{
+	border: 1px solid lightgray;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 200px;
+}
+
+.input-div input{
+	width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	background: transparent;
+	font-size: 15px;
+}
+input#Yes,
+input#No{
+	width: auto;
+	margin-top: 10px;
+}
+.btn{
+	height: 36px;
+	width: 100px;
+	background-color: #6703c4;
+	border-radius: 5px;
+	/* font-size: 14px; */
+	letter-spacing: .5px;
+	font-weight: 540;
+	border: none;
+	padding: 10px;
+	position: absolute;
+	margin: 15px;
+	color: white;
+}
+.last-div h2{
+	text-align: center;
+	padding-top: 50px;
+	color: #a2a4a6;
+	font-weight: 200;
+}
+.term{
+	font-size: 12px;
+	padding-left: 65px;
+	padding-top: 5px;
+	position: absolute;
+}
+.never{
+	padding-left: 15px;
+	font-size: 12px;
+	padding-top: 70px;
+	font-weight: 400;
+
+}
